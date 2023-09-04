@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+:root{
+    --color001: #092626;
+    --color002: #01401C;
+    --color003: #025920;
+    --color004: #02731E;
+    --color005: #47A638;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body, main{
+    width:100vw;
+}
+body{
+    background-color: var(--color001);
+}
+
+section{
+    background-color:white;
+    margin:auto;
+    margin-top:5vh;
+    padding:20px;
+    width:30vw;
+    border-radius:20px;
+}
+
+div#imagem-formulario{
+    border-radius:20px 20px 0px 0px;
+    margin:-20px;
+    height: 200px;
+    background: var(--color005) url(../imagens/pexels-oleksandr-tiupa-192136a.jpg) no-repeat;
+    background-size: cover;
+}
+
+div#formulario{
+    margin-top:30px;
+}
+
+div#formulario h1{
+    font-size:1.5em;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+div#formulario p{
+    font-size:0.8em;
+    text-justify: auto;
+}
+
+div#formulario-email{
+    
+}
