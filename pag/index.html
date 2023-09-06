@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
     <link rel="stylesheet" href="../style/estilos.css" media="all">
 </head>
 <body>
@@ -17,20 +19,21 @@
                 <p>
                     Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
                 </p>
-                <form action="cadastro.py">
+                <form action="cadastro.py" method="post" autocomplete="on">
                     <div>
                         <div id="formulario-email">
-                            <input type="email" name="" id="">
+                            <label for="form-email"><i class="material-symbols-outlined icon">person</i></label>
+                            <input type="email" name="email" id="form-email" required autocomplete="email">
                         </div>
                         <div id="formulario-senha">
-                            <input type="password" name="" id="">
+                            <label for="form-senha"><i class="material-symbols-outlined icon">vpn_key</i></label>
+                            <input type="password" name="senha" id="form-senha" required placeholder="" autocomplete="current-password">
                         </div>
                     </div>
                     <div>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Esqueci a senha">
+                        <input type="submit" value="Enviar" id="form-submit">
+                        <input type="reset" value="Esqueci a senha" id="form-reset">
                     </div>
-
                 </form>
             </div>
         </section>

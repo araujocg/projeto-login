@@ -5,7 +5,7 @@
     --color002: #01401C;
     --color003: #025920;
     --color004: #02731E;
-    --color005: #47A638;
+    --color005: #82A3A1;
 }
 
 *{
@@ -24,15 +24,15 @@ body{
 section{
     background-color:white;
     margin:auto;
-    margin-top:5vh;
-    padding:20px;
-    width:30vw;
+    margin-top:15px;
+    padding:10px;
+    width:35vw;
     border-radius:20px;
 }
 
 div#imagem-formulario{
     border-radius:20px 20px 0px 0px;
-    margin:-20px;
+    margin: -20px -10px -20px -10px;
     height: 200px;
     background: var(--color005) url(../imagens/pexels-oleksandr-tiupa-192136a.jpg) no-repeat;
     background-size: cover;
@@ -53,6 +53,36 @@ div#formulario p{
     text-justify: auto;
 }
 
-div#formulario-email{
-    
+div#formulario-email, div#formulario-senha{
+    background-color:var(--color001);
+    border-radius:10px;
+    margin-top:5px;
+    padding:2px;
 }
+
+div#formulario i.icon{
+    color:white;
+    margin: 5px 5px 0px 5px;
+    font-size:1.9em;
+    width:30px;
+    vertical-align: bottom;
+}
+
+div#formulario-email input#form-email{
+    font-size:1.2em;
+    width: calc(100% - 46px);
+    border-radius:10px;
+    transform: translateY(-5px);
+    background-color:var(--color005);
+    border: 1px solid var(--color005);
+}
+
+div#formulario-senha input#form-senha{
+    font-size:2em;
+    width: calc(100% - 47px);
+    height:100%;
+    border-radius:10px;
+    border: 1px solid var(--color005);
+    background-color:var(--color005);
+}
+
