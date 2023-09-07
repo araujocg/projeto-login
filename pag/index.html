@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
     <link rel="stylesheet" href="../style/estilos.css" media="all">
 </head>
 <body>
@@ -23,16 +22,17 @@
                     <div>
                         <div id="formulario-email">
                             <label for="form-email"><i class="material-symbols-outlined icon">person</i></label>
-                            <input type="email" name="email" id="form-email" required autocomplete="email">
+                            <input type="email" name="email" id="form-email" placeholder="seu e-mail" autocomplete="email" required maxlength="30" onclick="clicou()">
                         </div>
                         <div id="formulario-senha">
                             <label for="form-senha"><i class="material-symbols-outlined icon">vpn_key</i></label>
-                            <input type="password" name="senha" id="form-senha" required placeholder="" autocomplete="current-password">
+                            <input type="password" name="senha" id="form-senha" required placeholder="sua senha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
                         </div>
                     </div>
                     <div>
                         <input type="submit" value="Enviar" id="form-submit">
-                        <input type="reset" value="Esqueci a senha" id="form-reset">
+                        <input type="reset" value='Esqueci a senha' id="form-reset">
+                        </div>
                     </div>
                 </form>
             </div>
