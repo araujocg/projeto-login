@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom, var(--color001), var(--color005)70%);
+    background-attachment: fixed;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    width: 800px;
+    height: 350px;
+}
+
+div#imagem-formulario{
+    border-radius:20px 0px 0px 20px;
+    background-position: center bottom;
+    width: 275px; 
+    height: 110%;
+}
+
+div#formulario{
+    margin-top:5px;
+    width:65%;
+}
+
+div#formulario-email input#form-email{
+    width: calc(100% - 15%);
+}
+
+div#formulario-senha input#form-senha{
+    width: calc(100% - 15%);
+}
+
+div input#form-submit{
+    width:500;
+}
+
+div input#form-reset{
+    width:500;
+}
+
