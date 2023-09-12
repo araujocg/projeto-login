@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+section{
+    flex-direction: row-reverse; /* Inverte a ordem dos elementos */
+}
+
+div#imagem-formulario{
+    border-radius:0px 20px 20px 0px;
+}
+
+
+

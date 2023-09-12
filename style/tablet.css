@@ -25,6 +25,10 @@ div#formulario{
     width:65%;
 }
 
+div#formulario p{
+    margin:12px 0px 12px 0px;
+}
+
 div#formulario-email input#form-email{
     width: calc(100% - 15%);
 }
