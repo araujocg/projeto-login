@@ -15,6 +15,7 @@
 }
 
 body, main{
+    height:100vh;
     width:100vw;
 }
 body{
@@ -33,11 +34,13 @@ section{
     transform: translate(-50%, -50%);
     border-radius:20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width 0.4s, height 0.4s;
+    transition-timing-function:ease;
 }
 
 div#imagem-formulario{
-    border-radius:20px 20px 0px 0px;
-    margin: -20px -10px -10px -10px;
+    margin:-10px;
     height: 200px;
     background: var(--color005) url(../imagens/pexels-pixabay-531767.jpg) no-repeat;
     background-size: cover;

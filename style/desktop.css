@@ -1,11 +1,48 @@
 @charset "UTF-8";
 
+body{
+    background-image: linear-gradient(to bottom, var(--color001), var(--color005));
+}
+
+
 section{
-    flex-direction: row-reverse; /* Inverte a ordem dos elementos */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color:white;
+    width: 800px;
+    height: 350px;
 }
 
 div#imagem-formulario{
-    border-radius:0px 20px 20px 0px;
+    background-position: center bottom;
+    width: 275px; 
+    height: 110%;
+}
+
+div#formulario{
+    margin-top:5px;
+    width:65%;
+}
+
+div#formulario p{
+    margin:12px 0px 12px 0px;
+}
+
+div#formulario-email input#form-email{
+    width: calc(100% - 15%);
+}
+
+div#formulario-senha input#form-senha{
+    width: calc(100% - 15%);
+}
+
+div input#form-submit{
+    width:500;
+}
+
+div input#form-reset{
+    width:500;
 }
 
 
