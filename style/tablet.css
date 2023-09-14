@@ -35,11 +35,3 @@ div#formulario-senha input#form-senha{
     width: calc(100% - 15%);
 }
 
-div input#form-submit{
-    width:500;
-}
-
-div input#form-reset{
-    width:500;
-}
-

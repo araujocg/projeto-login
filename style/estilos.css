@@ -16,7 +16,6 @@
 
 body, main{
     height:100vh;
-    width:100vw;
 }
 body{
     background-color: var(--color005);
@@ -29,7 +28,7 @@ section{
     left: 50%;
     overflow: hidden;
     width: 300px;
-    height: 600px;
+    height: 548px;
     padding:10px;
     transform: translate(-50%, -50%);
     border-radius:20px;
@@ -57,7 +56,7 @@ div#formulario h1{
 }
 
 div#formulario p{
-    font-size:1em;
+    font-size:0.8em;
     line-height:1.5;
     text-justify: auto;
 }
@@ -113,6 +112,7 @@ div input#form-submit{
 div input#form-submit:hover{
     background-color:var(--color001);
     transition:0.3s;
+    cursor:pointer;
 }
 
 div input#form-reset{
@@ -131,5 +131,6 @@ div input#form-reset:hover{
     background-color:var(--color001);
     color:white;
     transition:0.3s;
+    cursor:pointer;
 }
 

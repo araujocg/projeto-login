@@ -10,22 +10,23 @@ section{
     justify-content: space-between;
     flex-direction: row-reverse;
     background-color:white;
-    width: 800px;
+    width: 900px;
     height: 350px;
 }
 
 div#imagem-formulario{
     background-position: center bottom;
-    width: 275px; 
+    width: 355px; 
     height: 110%;
 }
 
 div#formulario{
     margin-top:5px;
-    width:65%;
+    width:60%;
 }
 
 div#formulario p{
+    font-size:0.9em;
     margin:12px 0px 12px 0px;
 }
 
@@ -37,13 +38,6 @@ div#formulario-senha input#form-senha{
     width: calc(100% - 15%);
 }
 
-div input#form-submit{
-    width:500;
-}
-
-div input#form-reset{
-    width:500;
-}
 
 
 
