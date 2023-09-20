@@ -8,13 +8,13 @@ section{
     display: flex;
     justify-content: space-between;
     background-color:white;
-    width: 800px;
+    width: 80vw;
     height: 350px;
 }
 
 div#imagem-formulario{
     background-position: right;
-    width: 275px; 
+    width: 34%; 
     height: 110%;
 }
 
@@ -29,10 +29,10 @@ div#formulario p{
 }
 
 div#formulario-email input#form-email{
-    width: calc(100% - 15%);
+    width: calc(100% - 75px);
 }
 
 div#formulario-senha input#form-senha{
-    width: calc(100% - 15%);
+    width: calc(100% - 75px);
 }
 

@@ -82,20 +82,20 @@ div#formulario-email input#form-email{
     border-radius:10px;
     height: 30px;
     padding:4px;
-    transform: translateY(-5px);
     background-color:white;
     border: 1px solid var(--color005);
+    transform: translateY(-5px);
 }
 
 div#formulario-senha input#form-senha{
     font-size:1em;
-    width: calc(100% - 75px);
     border-radius:10px;
+    width: calc(100% - 75px);
     height: 30px;
     padding:4px;
-    transform: translateY(-5px);
     background-color:white;
     border: 1px solid var(--color005);
+    transform: translateY(-5px);
 }
 
 div input#form-submit{
@@ -111,8 +111,8 @@ div input#form-submit{
 
 div input#form-submit:hover{
     background-color:var(--color001);
-    transition:0.3s;
     cursor:pointer;
+    transition:0.3s;
 }
 
 div input#form-reset{
@@ -130,7 +130,7 @@ div input#form-reset{
 div input#form-reset:hover{
     background-color:var(--color001);
     color:white;
-    transition:0.3s;
     cursor:pointer;
+    transition:0.3s;
 }
 
